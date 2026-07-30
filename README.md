@@ -1,80 +1,120 @@
-# Repost Promotion
+# Repost Promotion Website
 
-Repost Promotion is a production-ready static website for a community repost platform that helps quality content reach a wider audience.
+Official static website for Repost Promotion, a community-focused repost project that helps quality content reach a wider audience through selective, responsible amplification.
 
-The site is designed for GitHub Pages and works by opening `index.html` directly. It uses only static HTML, CSS, and JavaScript with no build tools, frameworks, CDNs, or server-side dependencies.
+The website is built for GitHub Pages. It does not require a server, database, framework, package manager, build command, or external JavaScript dependency. Opening `index.html` locally will run the site.
 
-## Features
+## Official Links
 
-- Responsive mobile-first layout for phones, tablets, and desktops.
-- Premium glassmorphism visual system with deep blue, electric blue, cyan, white, and dark gray.
-- Complete navigation, footer, mobile hamburger menu, and back-to-top control.
-- Home, About, How It Works, Guidelines, FAQ, Contact, Privacy, Terms, Copyright, Accessibility, Changelog, and 404 pages.
-- Accordion FAQ using native HTML details elements.
-- Scroll reveal animations with reduced-motion support.
-- SEO metadata, canonical URLs, Open Graph tags, Twitter Card tags, structured data, robots.txt, and sitemap.xml.
-- Progressive Web App metadata through `manifest.webmanifest` and `browserconfig.xml`.
-- Accessibility-conscious semantics, skip link, focus states, keyboard-friendly navigation, readable typography, and responsive spacing.
+- Website: `index.html`
+- GitHub: https://github.com/RepostPromotion
+- X: https://x.com/RepostPromoter
+- Twitch: https://www.twitch.tv/repostpromoter/about
 
-## GitHub Pages Deployment
+## What This Site Communicates
 
-1. Upload the contents of this folder to a GitHub repository.
-2. In the repository settings, open Pages.
-3. Select the branch and root folder that contain `index.html`.
-4. Save the Pages settings and wait for GitHub to publish the site.
+- Repost Promotion reviews tagged posts selectively.
+- A repost is never guaranteed.
+- The project prioritizes original, useful, respectful, and safe content.
+- Spam, scams, impersonation, harassment, malware, malicious links, illegal content, and copyright violations are not eligible.
+- The public site does not intentionally collect personal information.
 
-If the repository name or organization is different from the default canonical URL used in this project, update the canonical URLs in each HTML file, `sitemap.xml`, and `robots.txt`.
+## Pages
 
-## Folder Structure
+- `index.html` - Home page with project overview, submission path, values, audience, and trust signals.
+- `about.html` - Mission, vision, purpose, transparency, community focus, and quality standards.
+- `how-it-works.html` - Step-by-step repost consideration process.
+- `guidelines.html` - Acceptable and prohibited content standards.
+- `faq.html` - Common questions about selection, timing, cost, businesses, and appeals.
+- `contact.html` - Official GitHub, X, and Twitch contact links.
+- `privacy.html` - Privacy policy for the static website.
+- `terms.html` - Terms of Service.
+- `copyright.html` - Copyright, DMCA, complaint, and removal request information.
+- `accessibility.html` - Accessibility statement.
+- `changelog.html` - Website release notes.
+- `404.html` - Custom not found page for GitHub Pages.
+
+## Project Structure
 
 ```text
 repost-promotion/
-├── index.html
-├── about.html
-├── how-it-works.html
-├── guidelines.html
-├── faq.html
-├── contact.html
-├── privacy.html
-├── terms.html
-├── copyright.html
-├── accessibility.html
-├── changelog.html
-├── 404.html
-├── css/
-│   ├── style.css
-│   ├── animations.css
-│   └── responsive.css
-├── js/
-│   ├── main.js
-│   ├── navigation.js
-│   └── animations.js
-├── images/
-│   ├── logo.png
-│   ├── repost.png
-│   ├── favicon.png
-│   ├── hero.webp
-│   └── backgrounds/
-├── fonts/
-├── sitemap.xml
-├── robots.txt
-├── manifest.webmanifest
-├── browserconfig.xml
-└── README.md
+|-- index.html
+|-- about.html
+|-- how-it-works.html
+|-- guidelines.html
+|-- faq.html
+|-- contact.html
+|-- privacy.html
+|-- terms.html
+|-- copyright.html
+|-- accessibility.html
+|-- changelog.html
+|-- 404.html
+|-- css/
+|   |-- style.css
+|   |-- animations.css
+|   `-- responsive.css
+|-- js/
+|   |-- main.js
+|   |-- navigation.js
+|   `-- animations.js
+|-- images/
+|   |-- repost.png
+|   |-- logo.png
+|   |-- favicon.png
+|   `-- hero.webp
+|-- fonts/
+|-- sitemap.xml
+|-- robots.txt
+|-- manifest.webmanifest
+|-- browserconfig.xml
+`-- README.md
 ```
 
-## Customization Guide
+## Local Preview
 
-- Update social links in the navigation and footer if the official GitHub or X profiles change.
-- Replace `images/repost.png`, `images/favicon.png`, and `images/hero.webp` with final brand assets when available.
-- Edit CSS variables in `css/style.css` to adjust colors, spacing, shadows, and layout width.
-- Update statistics on `index.html` when verified project milestones change.
-- Update policy pages when contact methods, analytics, cookies, or submission rules change.
+Open this file in a browser:
 
-## Browser Compatibility
+```text
+index.html
+```
 
-The site uses modern HTML, CSS Grid, Flexbox, CSS variables, and standard ES6 JavaScript. It is intended for current versions of Chrome, Edge, Firefox, and Safari.
+Because the project is fully static, no local server is required for normal previewing.
+
+## GitHub Pages Deployment
+
+1. Commit the project files to the repository.
+2. Open the repository settings on GitHub.
+3. Go to Pages.
+4. Select the publishing branch and folder that contain `index.html`.
+5. Save the settings and wait for GitHub Pages to publish.
+
+If the final GitHub Pages URL changes, update the canonical URLs in the HTML files plus `sitemap.xml` and `robots.txt`.
+
+## Maintenance Notes
+
+- Update `contact.html`, page navigation, and footer links when official social accounts change.
+- Update `index.html` trust signals only with claims that are accurate and verifiable.
+- Keep policy pages current if contact methods, analytics, cookies, submission rules, or repost standards change.
+- Keep `sitemap.xml` in sync when pages are added, removed, or renamed.
+- Replace `images/repost.png` only with the approved Repost Promotion logo.
+
+## Accessibility
+
+The site includes semantic HTML, a skip link, keyboard-accessible navigation, visible focus states, responsive layouts, readable typography, and reduced-motion support.
+
+## Browser Support
+
+The site targets current versions of Chrome, Edge, Firefox, and Safari. It uses standard HTML, CSS Grid, Flexbox, CSS variables, and modern JavaScript.
 
 ## License
 
-All website text, structure, and styling are provided for the Repost Promotion project. Add the final project license that matches the repository owner's publishing preference.
+Content and design are maintained for the Repost Promotion project. 
+
+```
+Copyright (c) 2026 Repost Promotion. All rights reserved.
+
+This repository contains the official Repost Promotion website, including its source code, text, design, branding, and visual assets.
+
+You may view the publicly hosted website and reference its content for normal browsing purposes. You may not copy, modify, redistribute, sublicense, resell, rehost, or create derivative works from this repository or its assets without written permission from Repost Promotion.
+```
