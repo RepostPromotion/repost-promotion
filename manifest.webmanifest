@@ -1,0 +1,22 @@
+{
+  "name": "Repost Promotion",
+  "short_name": "Repost",
+  "description": "A community repost platform helping quality content reach a wider audience.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#05070d",
+  "theme_color": "#1f6fff",
+  "icons": [
+    {
+      "src": "images/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/repost.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
