@@ -1,120 +1,71 @@
-# Repost Promotion Website
+# Repost Promotion 🔁
 
-Official static website for Repost Promotion, a community-focused repost project that helps quality content reach a wider audience through selective, responsible amplification.
+Repost Promotion helps quality content reach a wider audience through community reposts.
 
-The website is built for GitHub Pages. It does not require a server, database, framework, package manager, build command, or external JavaScript dependency. Opening `index.html` locally will run the site.
+The project is built around simple, responsible amplification: creators publish useful content, tag the official account, and posts may be reviewed for a possible repost. Reposts are selective and are not guaranteed.
 
-## Official Links
+## Visit Repost Promotion 🌐
 
-- Website: `index.html`
-- GitHub: https://github.com/RepostPromotion
-- X: https://x.com/RepostPromoter
-- Twitch: https://www.twitch.tv/repostpromoter/about
+- 🌐 Website: https://repostpromotion.github.io/repost-promotion/
+- 𝕏 X: https://x.com/RepostPromoter
+- 🎥 Twitch: https://www.twitch.tv/repostpromoter/about
+- 🧩 GitHub: https://github.com/RepostPromotion
 
-## What This Site Communicates
+## What Repost Promotion Is For ✨
 
-- Repost Promotion reviews tagged posts selectively.
-- A repost is never guaranteed.
-- The project prioritizes original, useful, respectful, and safe content.
-- Spam, scams, impersonation, harassment, malware, malicious links, illegal content, and copyright violations are not eligible.
-- The public site does not intentionally collect personal information.
+Repost Promotion supports creators, communities, builders, and businesses that publish original, useful, respectful content.
 
-## Pages
+The goal is to help good posts reach more people without encouraging spam, fake engagement, impersonation, scams, or low-quality promotion.
 
-- `index.html` - Home page with project overview, submission path, values, audience, and trust signals.
-- `about.html` - Mission, vision, purpose, transparency, community focus, and quality standards.
-- `how-it-works.html` - Step-by-step repost consideration process.
-- `guidelines.html` - Acceptable and prohibited content standards.
-- `faq.html` - Common questions about selection, timing, cost, businesses, and appeals.
-- `contact.html` - Official GitHub, X, and Twitch contact links.
-- `privacy.html` - Privacy policy for the static website.
-- `terms.html` - Terms of Service.
-- `copyright.html` - Copyright, DMCA, complaint, and removal request information.
-- `accessibility.html` - Accessibility statement.
-- `changelog.html` - Website release notes.
-- `404.html` - Custom not found page for GitHub Pages.
+## How It Works 🚀
 
-## Project Structure
+1. 👋 Follow Repost Promotion on X.
+2. ✍️ Publish quality content.
+3. 🏷️ Tag `@RepostPromoter`.
+4. 🔎 The post may be reviewed.
+5. 🔁 Selected posts may be reposted.
 
-```text
-repost-promotion/
-|-- index.html
-|-- about.html
-|-- how-it-works.html
-|-- guidelines.html
-|-- faq.html
-|-- contact.html
-|-- privacy.html
-|-- terms.html
-|-- copyright.html
-|-- accessibility.html
-|-- changelog.html
-|-- 404.html
-|-- css/
-|   |-- style.css
-|   |-- animations.css
-|   `-- responsive.css
-|-- js/
-|   |-- main.js
-|   |-- navigation.js
-|   `-- animations.js
-|-- images/
-|   |-- repost.png
-|   |-- logo.png
-|   |-- favicon.png
-|   `-- hero.webp
-|-- fonts/
-|-- sitemap.xml
-|-- robots.txt
-|-- manifest.webmanifest
-|-- browserconfig.xml
-`-- README.md
-```
+A repost is never guaranteed. Selection depends on quality, relevance, safety, originality, and fit with the community guidelines.
 
-## Local Preview
+## Community Standards 🛡️
 
-Open this file in a browser:
+Repost Promotion may consider content that is:
 
-```text
-index.html
-```
+- ✅ Original or properly attributed.
+- ✅ Clear, useful, and relevant to a real audience.
+- ✅ Respectful toward creators and communities.
+- ✅ Safe for a broad public audience.
+- ✅ Honest about links, offers, products, or calls to action.
 
-Because the project is fully static, no local server is required for normal previewing.
+Repost Promotion does not support:
 
-## GitHub Pages Deployment
+- ❌ Spam or repeated low-quality tagging.
+- ❌ Scams or deceptive offers.
+- ❌ Illegal content.
+- ❌ Impersonation.
+- ❌ Malicious links or malware.
+- ❌ Hateful content or harassment.
+- ❌ Copyright violations.
+- ❌ Content designed mainly to manipulate engagement.
 
-1. Commit the project files to the repository.
-2. Open the repository settings on GitHub.
-3. Go to Pages.
-4. Select the publishing branch and folder that contain `index.html`.
-5. Save the settings and wait for GitHub Pages to publish.
+## Contact 📣
 
-If the final GitHub Pages URL changes, update the canonical URLs in the HTML files plus `sitemap.xml` and `robots.txt`.
+Use the official links above to follow the project or reach the correct public channel.
 
-## Maintenance Notes
+For repost consideration, X is the primary channel because submissions are handled by tagging `@RepostPromoter`.
 
-- Update `contact.html`, page navigation, and footer links when official social accounts change.
-- Update `index.html` trust signals only with claims that are accurate and verifiable.
-- Keep policy pages current if contact methods, analytics, cookies, submission rules, or repost standards change.
-- Keep `sitemap.xml` in sync when pages are added, removed, or renamed.
-- Replace `images/repost.png` only with the approved Repost Promotion logo.
+## Website Pages 📄
 
-## Accessibility
+- 🏠 Home: Project overview and purpose.
+- ℹ️ About: Mission, vision, and quality standards.
+- 🚀 How It Works: Step-by-step repost process.
+- 🛡️ Guidelines: Accepted and prohibited content.
+- ❓ FAQ: Common questions.
+- 📣 Contact: Official project links.
+- 📌 Privacy, Terms, Copyright, and Accessibility: Public policy pages.
 
-The site includes semantic HTML, a skip link, keyboard-accessible navigation, visible focus states, responsive layouts, readable typography, and reduced-motion support.
+## Rights 🔒
 
-## Browser Support
+This repository contains the official Repost Promotion website, text, branding, design, and visual assets.
 
-The site targets current versions of Chrome, Edge, Firefox, and Safari. It uses standard HTML, CSS Grid, Flexbox, CSS variables, and modern JavaScript.
-
-## License
-
-Content and design are maintained for the Repost Promotion project. 
-
-```
-Copyright (c) 2026 Repost Promotion. All rights reserved.
-
-This repository contains the official Repost Promotion website, including its source code, text, design, branding, and visual assets.
-
-You may view the publicly hosted website and reference its content for normal browsing purposes. You may not copy, modify, redistribute, sublicense, resell, rehost, or create derivative works from this repository or its assets without written permission from Repost Promotion.
-```
+All rights are reserved unless written permission is provided by Repost Promotion.
