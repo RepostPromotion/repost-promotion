@@ -54,6 +54,8 @@ Use the official links above to follow the project or reach the correct public c
 
 For repost consideration, X is the primary channel because submissions are handled by tagging `@RepostPromoter`.
 
+Support email: contactrepost2026@yahoo.com
+
 ## Website Pages 📄
 
 - 🏠 Home: Project overview and purpose.
